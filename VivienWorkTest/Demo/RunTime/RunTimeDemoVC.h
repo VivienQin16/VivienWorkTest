@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RunTimeDemoVC.h
 //  VivienWorkTest
 //
 //  Created by Vivien on 16/11/4.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface RunTimeDemoVC : UIViewController
 
 @end
-

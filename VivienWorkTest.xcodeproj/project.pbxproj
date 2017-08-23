@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E6406771DCC37400078E704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6406761DCC37400078E704 /* main.m */; };
-		9E64067A1DCC37410078E704 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E6406791DCC37410078E704 /* AppDelegate.m */; };
-		9E64067D1DCC37410078E704 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64067C1DCC37410078E704 /* ViewController.m */; };
+		6F16B28ABEC0FF33E6AA20BA /* libPods-VivienWorkTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF1095B76954994612F888F /* libPods-VivienWorkTest.a */; };
+		9E068B7E1F4D5B210062D7AC /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E068B781F4D5B210062D7AC /* BaseViewController.m */; };
+		9E068B7F1F4D5B210062D7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E068B7B1F4D5B210062D7AC /* AppDelegate.m */; };
+		9E068B801F4D5B210062D7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E068B7D1F4D5B210062D7AC /* ViewController.m */; };
+		9E068B831F4D68BC0062D7AC /* SupportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E068B811F4D68BC0062D7AC /* SupportedInterfaceOrientations.m */; };
 		9E6406801DCC37410078E704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E64067E1DCC37410078E704 /* Main.storyboard */; };
 		9E6406821DCC37410078E704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6406811DCC37410078E704 /* Assets.xcassets */; };
 		9E6406851DCC37410078E704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E6406831DCC37410078E704 /* LaunchScreen.storyboard */; };
 		9E6406901DCC37410078E704 /* VivienWorkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64068F1DCC37410078E704 /* VivienWorkTestTests.m */; };
 		9E64069B1DCC37410078E704 /* VivienWorkTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E64069A1DCC37410078E704 /* VivienWorkTestUITests.m */; };
+		9E9C30461F4D14E20094816E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E9C30421F4D14E20094816E /* Info.plist */; };
+		9E9C30471F4D14E20094816E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C30431F4D14E20094816E /* main.m */; };
+		9EFFB7841F4C24A200C9F083 /* DragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB7801F4C24A200C9F083 /* DragViewController.m */; };
+		9EFFB7851F4C24A200C9F083 /* RunTimeDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB7831F4C24A200C9F083 /* RunTimeDemoVC.m */; };
+		9EFFB7891F4C250B00C9F083 /* VideoEnterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB7881F4C250B00C9F083 /* VideoEnterViewController.m */; };
+		9EFFB78C1F4C2B1600C9F083 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB78B1F4C2B1600C9F083 /* VideoViewController.m */; };
+		9EFFB79A1F4C2F1400C9F083 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFFB7991F4C2F1400C9F083 /* WKWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +44,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E55014CBF401C767EBD4EA7 /* Pods-VivienWorkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivienWorkTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivienWorkTest/Pods-VivienWorkTest.release.xcconfig"; sourceTree = "<group>"; };
+		7DF1095B76954994612F888F /* libPods-VivienWorkTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VivienWorkTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E068B771F4D5B210062D7AC /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9E068B781F4D5B210062D7AC /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9E068B7A1F4D5B210062D7AC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E068B7B1F4D5B210062D7AC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E068B7C1F4D5B210062D7AC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E068B7D1F4D5B210062D7AC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E068B811F4D68BC0062D7AC /* SupportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupportedInterfaceOrientations.m; sourceTree = "<group>"; };
+		9E068B821F4D68BC0062D7AC /* SupportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportedInterfaceOrientations.h; sourceTree = "<group>"; };
 		9E6406721DCC37400078E704 /* VivienWorkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivienWorkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E6406761DCC37400078E704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E6406781DCC37400078E704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9E6406791DCC37410078E704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E64067B1DCC37410078E704 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9E64067C1DCC37410078E704 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9E64067F1DCC37410078E704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E6406811DCC37410078E704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6406841DCC37410078E704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9E6406861DCC37410078E704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E64068B1DCC37410078E704 /* VivienWorkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivienWorkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E64068F1DCC37410078E704 /* VivienWorkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VivienWorkTestTests.m; sourceTree = "<group>"; };
 		9E6406911DCC37410078E704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E6406961DCC37410078E704 /* VivienWorkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VivienWorkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E64069A1DCC37410078E704 /* VivienWorkTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VivienWorkTestUITests.m; sourceTree = "<group>"; };
 		9E64069C1DCC37410078E704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9C30421F4D14E20094816E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9C30431F4D14E20094816E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E9C30441F4D14E20094816E /* VivienConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VivienConfig.h; sourceTree = "<group>"; };
+		9E9C30451F4D14E20094816E /* VivienWorkTest.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VivienWorkTest.pch; sourceTree = "<group>"; };
+		9EFFB77F1F4C24A200C9F083 /* DragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragViewController.h; sourceTree = "<group>"; };
+		9EFFB7801F4C24A200C9F083 /* DragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragViewController.m; sourceTree = "<group>"; };
+		9EFFB7821F4C24A200C9F083 /* RunTimeDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunTimeDemoVC.h; sourceTree = "<group>"; };
+		9EFFB7831F4C24A200C9F083 /* RunTimeDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeDemoVC.m; sourceTree = "<group>"; };
+		9EFFB7871F4C250B00C9F083 /* VideoEnterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEnterViewController.h; sourceTree = "<group>"; };
+		9EFFB7881F4C250B00C9F083 /* VideoEnterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEnterViewController.m; sourceTree = "<group>"; };
+		9EFFB78A1F4C2B1600C9F083 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		9EFFB78B1F4C2B1600C9F083 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		9EFFB7981F4C2F1300C9F083 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		9EFFB7991F4C2F1400C9F083 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		CFEBE668A0EE1A7251C84FC4 /* Pods-VivienWorkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivienWorkTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivienWorkTest/Pods-VivienWorkTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F16B28ABEC0FF33E6AA20BA /* libPods-VivienWorkTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3ACA0DFB28DE673558399086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFEBE668A0EE1A7251C84FC4 /* Pods-VivienWorkTest.debug.xcconfig */,
+				5E55014CBF401C767EBD4EA7 /* Pods-VivienWorkTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E068B751F4D5B210062D7AC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E068B761F4D5B210062D7AC /* Controller */,
+				9E068B791F4D5B210062D7AC /* Root */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9E068B761F4D5B210062D7AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9E068B811F4D68BC0062D7AC /* SupportedInterfaceOrientations.m */,
+				9E068B821F4D68BC0062D7AC /* SupportedInterfaceOrientations.h */,
+				9E068B771F4D5B210062D7AC /* BaseViewController.h */,
+				9E068B781F4D5B210062D7AC /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9E068B791F4D5B210062D7AC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9E068B7A1F4D5B210062D7AC /* AppDelegate.h */,
+				9E068B7B1F4D5B210062D7AC /* AppDelegate.m */,
+				9E068B7C1F4D5B210062D7AC /* ViewController.h */,
+				9E068B7D1F4D5B210062D7AC /* ViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
 		9E6406691DCC37400078E704 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +154,8 @@
 				9E64068E1DCC37410078E704 /* VivienWorkTestTests */,
 				9E6406991DCC37410078E704 /* VivienWorkTestUITests */,
 				9E6406731DCC37400078E704 /* Products */,
+				3ACA0DFB28DE673558399086 /* Pods */,
+				D286CBF067D00796D1DECD0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +172,14 @@
 		9E6406741DCC37400078E704 /* VivienWorkTest */ = {
 			isa = PBXGroup;
 			children = (
-				9E6406781DCC37400078E704 /* AppDelegate.h */,
-				9E6406791DCC37410078E704 /* AppDelegate.m */,
-				9E64067B1DCC37410078E704 /* ViewController.h */,
-				9E64067C1DCC37410078E704 /* ViewController.m */,
+				9E068B751F4D5B210062D7AC /* Classes */,
+				9EFFB77D1F4C24A200C9F083 /* Demo */,
+				9E9C30411F4D14E20094816E /* Supporting Files */,
 				9E64067E1DCC37410078E704 /* Main.storyboard */,
 				9E6406811DCC37410078E704 /* Assets.xcassets */,
 				9E6406831DCC37410078E704 /* LaunchScreen.storyboard */,
-				9E6406861DCC37410078E704 /* Info.plist */,
-				9E6406751DCC37400078E704 /* Supporting Files */,
 			);
 			path = VivienWorkTest;
-			sourceTree = "<group>";
-		};
-		9E6406751DCC37400078E704 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9E6406761DCC37400078E704 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		9E64068E1DCC37410078E704 /* VivienWorkTestTests */ = {
@@ -140,6 +200,66 @@
 			path = VivienWorkTestUITests;
 			sourceTree = "<group>";
 		};
+		9E9C30411F4D14E20094816E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E9C30421F4D14E20094816E /* Info.plist */,
+				9E9C30431F4D14E20094816E /* main.m */,
+				9E9C30441F4D14E20094816E /* VivienConfig.h */,
+				9E9C30451F4D14E20094816E /* VivienWorkTest.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EFFB77D1F4C24A200C9F083 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB7861F4C24F400C9F083 /* Video */,
+				9EFFB77E1F4C24A200C9F083 /* DragDemo */,
+				9EFFB7811F4C24A200C9F083 /* RunTime */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		9EFFB77E1F4C24A200C9F083 /* DragDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB77F1F4C24A200C9F083 /* DragViewController.h */,
+				9EFFB7801F4C24A200C9F083 /* DragViewController.m */,
+			);
+			path = DragDemo;
+			sourceTree = "<group>";
+		};
+		9EFFB7811F4C24A200C9F083 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB7821F4C24A200C9F083 /* RunTimeDemoVC.h */,
+				9EFFB7831F4C24A200C9F083 /* RunTimeDemoVC.m */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		9EFFB7861F4C24F400C9F083 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9EFFB7871F4C250B00C9F083 /* VideoEnterViewController.h */,
+				9EFFB7881F4C250B00C9F083 /* VideoEnterViewController.m */,
+				9EFFB78A1F4C2B1600C9F083 /* VideoViewController.h */,
+				9EFFB78B1F4C2B1600C9F083 /* VideoViewController.m */,
+				9EFFB7981F4C2F1300C9F083 /* WKWebViewController.h */,
+				9EFFB7991F4C2F1400C9F083 /* WKWebViewController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		D286CBF067D00796D1DECD0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DF1095B76954994612F888F /* libPods-VivienWorkTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E64069F1DCC37410078E704 /* Build configuration list for PBXNativeTarget "VivienWorkTest" */;
 			buildPhases = (
+				A03FE7944AA24E29A0BF9A8A /* [CP] Check Pods Manifest.lock */,
 				9E64066E1DCC37400078E704 /* Sources */,
 				9E64066F1DCC37400078E704 /* Frameworks */,
 				9E6406701DCC37400078E704 /* Resources */,
+				C4E3AB20BE63B72039A37089 /* [CP] Embed Pods Frameworks */,
+				6DC93591DD829DCF727C437D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +330,7 @@
 				TargetAttributes = {
 					9E6406711DCC37400078E704 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C7G78L37X3;
 						ProvisioningStyle = Automatic;
 					};
 					9E64068A1DCC37410078E704 = {
@@ -246,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E9C30461F4D14E20094816E /* Info.plist in Resources */,
 				9E6406851DCC37410078E704 /* LaunchScreen.storyboard in Resources */,
 				9E6406821DCC37410078E704 /* Assets.xcassets in Resources */,
 				9E6406801DCC37410078E704 /* Main.storyboard in Resources */,
@@ -268,14 +393,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6DC93591DD829DCF727C437D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivienWorkTest/Pods-VivienWorkTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A03FE7944AA24E29A0BF9A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E3AB20BE63B72039A37089 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VivienWorkTest/Pods-VivienWorkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E64066E1DCC37400078E704 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E64067D1DCC37410078E704 /* ViewController.m in Sources */,
-				9E64067A1DCC37410078E704 /* AppDelegate.m in Sources */,
-				9E6406771DCC37400078E704 /* main.m in Sources */,
+				9E068B801F4D5B210062D7AC /* ViewController.m in Sources */,
+				9EFFB7841F4C24A200C9F083 /* DragViewController.m in Sources */,
+				9E068B831F4D68BC0062D7AC /* SupportedInterfaceOrientations.m in Sources */,
+				9EFFB79A1F4C2F1400C9F083 /* WKWebViewController.m in Sources */,
+				9EFFB7891F4C250B00C9F083 /* VideoEnterViewController.m in Sources */,
+				9EFFB78C1F4C2B1600C9F083 /* VideoViewController.m in Sources */,
+				9E068B7F1F4D5B210062D7AC /* AppDelegate.m in Sources */,
+				9E9C30471F4D14E20094816E /* main.m in Sources */,
+				9E068B7E1F4D5B210062D7AC /* BaseViewController.m in Sources */,
+				9EFFB7851F4C24A200C9F083 /* RunTimeDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +602,13 @@
 		};
 		9E6406A01DCC37410078E704 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEBE668A0EE1A7251C84FC4 /* Pods-VivienWorkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VivienWorkTest/Info.plist;
+				DEVELOPMENT_TEAM = C7G78L37X3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "VivienWorkTest/Supporting Files/VivienWorkTest.pch";
+				INFOPLIST_FILE = "VivienWorkTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivien.ios.VivienWorkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +617,13 @@
 		};
 		9E6406A11DCC37410078E704 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E55014CBF401C767EBD4EA7 /* Pods-VivienWorkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = VivienWorkTest/Info.plist;
+				DEVELOPMENT_TEAM = C7G78L37X3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "VivienWorkTest/Supporting Files/VivienWorkTest.pch";
+				INFOPLIST_FILE = "VivienWorkTest/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vivien.ios.VivienWorkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +695,7 @@
 				9E6406A11DCC37410078E704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E6406A21DCC37410078E704 /* Build configuration list for PBXNativeTarget "VivienWorkTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +704,7 @@
 				9E6406A41DCC37410078E704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E6406A51DCC37410078E704 /* Build configuration list for PBXNativeTarget "VivienWorkTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +713,7 @@
 				9E6406A71DCC37410078E704 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

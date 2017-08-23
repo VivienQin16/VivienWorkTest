@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+//@synthesize navigationController = mNavigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window.backgroundColor = [UIColor whiteColor];
+//
+//    ViewController *vc = [[ViewController alloc]init];
+//    mNavigationController = [[UINavigationController alloc] initWithRootViewController:vc]; //homeVC
+//    self.window.rootViewController = mNavigationController;
+//
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -45,6 +53,19 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    
+    NSLog(@"applicationWillTerminate");
+}
+
+#pragma  mark ———— 控制横竖屏
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    if ([NSStringFromClass([[[window subviews]lastObject] class]) isEqualToString:@"UITransitionView"]) {
+        return UIInterfaceOrientationMaskAll;
+    }
+//    if (self.allowRotation) {
+//        return UIInterfaceOrientationMaskAll;
+//    }
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 
